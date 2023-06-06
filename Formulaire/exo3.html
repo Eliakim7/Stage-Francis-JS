@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="myForm" action="./envoi.html" method="post">
+      <div>
+        <label for="lastname">Nom</label>
+        <input type="text" name="lastname" id="lastname">
+        <br>
+        <span id="errorLN"></span>
+      </div>
+      <div>
+        <label for="firstname">Prénom</label>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+        <span id="errorFN"></span>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="texte" name="email" id="email">
+        <br>
+        <span id="errorEM"></span>
+      </div>
+      <div>
+        <label for="dateOfBirth">Date de naissance</label>
+        <input type="date" name="dateOfBirth" id="dateOfBirth">
+        <br>
+        <span id="errorDOB"></span>
+      </div>
+      <div>
+        <label for="address">Adresse</label>
+        <input type="text" name="address" id="address">
+        <br>
+        <span id="errorAD"></span>
+      </div>
+      <div>
+        <label for="password1">Mot de passe</label>
+        <input type="password" name="password1" id="password1">
+        <br>
+        <span id="errorPW1"></span>
+      </div>
+      <div>
+        <label for="password2">Confirmer mot de passe</label>
+        <input type="password" name="password2" id="password2">
+        <br>
+        <span id="errorPW2"></span>
+      </div>
+      <button type="submit" id="btn-envoi" href="./envoi.html" >Valider</button>
+    
+    </form>
+  
+</body>
+<script src="./exo3.js"></script>
+</html>
