@@ -1,0 +1,48 @@
+body {
+  background: darkgray;
+}
+.block-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.first-block{
+  background: rgb(22, 68, 185);
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 10%;
+  height: 20px;
+}
+
+.second-block{
+  background: rgb(98, 124, 190);
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 10%;
+  height: 20px;
+}
+
+button{
+  background: rgb(25, 177, 25);
+  color: white;
+  border:1px solid white;
+  border-radius: 5px;
+  width: 10%;
+  height: 20px;
+  font-size: 10px;
+  cursor: pointer;
+ }
