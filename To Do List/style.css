@@ -1,0 +1,27 @@
+.delete-btn {
+  background: red;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#task {
+  width: 300px;
+  margin-bottom: 10px;
+};
+
+#add-btn {
+  width: 309px;
+  cursor: pointer;
+}
+
+#toDoList {
+  display: flex;
+  flex-direction: column;
+}
+
+#list-container{
+  display: flex;
+}
